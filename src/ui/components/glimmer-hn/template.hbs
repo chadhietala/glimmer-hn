@@ -27,13 +27,13 @@
       <span class="pages"> {{! TODO make dynamic}} 1/18</span>
       <a href="/top" class="navigate">next &gt;</a>
     </p>
-    {{~#each results key="index" as |result|~}}
+    {{~#each results key="index" as |result i|~}}
       <article class="article">
-        <span class="index">1 {{! TODO make dynamic}}</span>
+        <span class="index">{{inc i}}</span>
         <div class="metadata">
-          <h2><a href="" class="outboundLink">{{result.title}}</a></h2>
-          <p>{{result.score}} points by <a href="" class="link">{{result.by}}</a> {{time result.time}}
-           <span> | <a href="" class="link">{{gt result.descendants 1 (concat result.descendants " comments") "discuss"}}</a></span>
+          <h2><a href="{{result.url}}" class="outboundLink">{{result.title}}</a></h2>
+          <p>{{result.score}} points by <a href="/user/{{result.by}}" class="link">{{result.by}}</a> {{time result.time}}
+           <span> | <a href="/item/{{result.id}}" class="link">{{gt result.descendants 1 (concat result.descendants " comments") "discuss"}}</a></span>
           </p>
         </div>
       </article>
