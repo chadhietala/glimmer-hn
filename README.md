@@ -53,8 +53,6 @@ yarn run serve
 yarn run bench
 ```
 
-# TODO Need to write the R script... currently a copy pasta job
-
 ### Generate the Report
 ```sh
 ./report.R
