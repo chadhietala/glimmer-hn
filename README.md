@@ -1,34 +1,65 @@
 # glimmer-hn
 
-This README outlines the details of collaborating on this Glimmer application.
-A short introduction of this app could easily go here.
+This is a WIP clone of the Hackernews demoware app.
 
-## Prerequisites
+# Running The Benchmarks
 
-You will need the following things properly installed on your computer.
+We use [Chrome Tracing](https://github.com/krisselden/chrome-tracing) and [HARRemix](https://github.com/krisselden/har-remix) to create an isolated and reproducable environment for performance measurements. To run the benchmarks do the following:
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with NPM)
-* [Yarn](https://yarnpkg.com/en/)
-* [Ember CLI](https://ember-cli.com/)
+## Setup
+### Prerequisites
 
-## Installation
+These instructions assume Mac and using homebrew.
 
-* `git clone <repository-url>` this repository
-* `cd glimmer-hn`
-* `yarn`
+Install R
+```sh
+brew tap homebrew/science
+brew install r
+```
 
-## Running / Development
+Run R
+```sh
+R
+```
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+Then install ggplot2
+```R
+install.packages("ggplot2")
+q()
+```
 
-### Building
+Install yarn
+```sh
+brew install yarn
+```
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+### Install
 
-## Further Reading / Useful Links
+```sh
+git clone git@github.com:chadhietala/glimmer-hn.git
+cd glimmer-hn
+yarn
+```
 
-* [glimmerjs](http://github.com/tildeio/glimmer/)
-* [ember-cli](https://ember-cli.com/)
+### Run the Server
+
+```sh
+yarn run serve
+```
+
+### Run the Benchmark
+
+```sh
+yarn run bench
+```
+
+# TODO Need to write the R script... currently a copy pasta job
+
+### Generate the Report
+```sh
+./report.R
+```
+
+```
+open results/*.png
+```

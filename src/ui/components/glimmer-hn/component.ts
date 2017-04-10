@@ -374,6 +374,12 @@ let data = {
   }
 }
 
+let links = document.getElementById('links');
+
+Array.from(links.querySelectorAll('.item')).forEach((item) => {
+  links.removeChild(item);
+});
+
 
 export default class GlimmerHn extends Component {
   nav = document.getElementById('links')

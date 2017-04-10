@@ -18,4 +18,23 @@ app.registerInitializer({
 
 app.renderComponent('glimmer-hn', containerElement, null);
 
-app.boot();
+
+
+requestAnimationFrame(() => {
+  performance.mark('beforeRender');
+  app.boot();
+  performance.mark('afterRender');
+  requestAnimationFrame(() => {
+    performance.mark('afterPaint');
+
+    setTimeout(() => {
+      if (location.search === '?perf.tracing') {
+        document.location.href = 'about:blank';
+      } else {
+        performance.measure('download-parse-compile', 'beforeApp', 'afterApp');
+        performance.measure('render', 'beforeRender', 'afterRender');
+        performance.measure('paint', 'afterRender', 'afterPaint');
+      }
+    }, 100);
+  });
+});
