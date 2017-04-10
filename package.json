@@ -9,15 +9,20 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember test"
+    "test": "ember test",
+    "bench": "node ./benching/index.js",
+    "serve": "node --expose-gc ./benching/server.js"
   },
   "devDependencies": {
     "@glimmer/application": "^0.4.0",
     "@glimmer/application-pipeline": "^0.5.2",
     "@glimmer/component": "^0.3.8",
     "@glimmer/resolver": "^0.3.0",
+    "chrome-tracing": "^0.4.3",
     "ember-cli": "github:ember-cli/ember-cli",
     "ember-cli-inject-live-reload": "^1.6.1",
+    "glob": "^7.1.1",
+    "har-remix": "^1.2.0",
     "typescript": "^2.2.2"
   },
   "engines": {
