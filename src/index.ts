@@ -4,6 +4,8 @@ import { ComponentManager, setPropertyDidChange } from '@glimmer/component';
 const app = new App();
 const containerElement = document.getElementById('app');
 
+containerElement.setAttribute('class', 'viewHasHeader');
+
 setPropertyDidChange(() => {
   app.scheduleRerender();
 });
