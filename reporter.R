@@ -18,18 +18,18 @@ phases$phase = factor(phases$phase,
 phases$set = factor(phases$set, levels=testNames)
 library('ggplot2')
 
-png(file=paste(folder, 'gc.png'))
+png(file=paste(folder, 'gc.png', sep = ''))
 ggplot(aes(y = heap, x = type, color = set), data = gc) +
   geom_boxplot(outlier.size=0.5, outlier.shape=4) +
   scale_y_continuous(labels = function (x) { format(structure(x, class="object_size"),"Mb")})
 dev.off()
 
-png(file=paste(folder, 'samples.png'), width=1024, height=768)
+png(file=paste(folder, 'samples.png', sep = ''), width=1024, height=768)
 ggplot(aes(y = ms, x = type, color = set), data = samples) +
   geom_boxplot(outlier.size=0.5, outlier.shape=4)
 dev.off()
 
-png(file=paste(folder, 'phases.png'), width=1024, height=768)
+png(file=paste(folder, 'phases.png', sep = ''), width=1024, height=768)
 ggplot(aes(y = ms, x = phase, color = set), data = phases) +
   facet_grid(type ~ ., scales='free_y') +
   geom_boxplot(outlier.size=0.5, outlier.shape=4)

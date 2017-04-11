@@ -2,6 +2,7 @@ const ChromeTracing = require('chrome-tracing');
 const Runner = ChromeTracing.Runner;
 const InitialRenderBenchmark = ChromeTracing.InitialRenderBenchmark;
 const fs = require('fs');
+const mkdirp = require('mkdirp').sync;
 let browserOpts = {
   type: "canary"
 };
@@ -15,6 +16,14 @@ let benchmarks = config.servers.map(({ name, port }) => new InitialRenderBenchma
     { start: "domLoading", label: "load" },
     { start: "afterPaint", label: "render" }
   ],
+  cpuThrottleRate: 4,
+  runtimeStats: true,
+  networkConditions: {
+    latency: 400,
+    uploadThroughput: Math.floor(400 * 1024 / 8), // 400kbps
+    downloadThroughput: Math.floor(400 * 1024 / 8), // 400kbps
+    offline: false
+  },
   browser: browserOpts
 }));
 
@@ -61,7 +70,7 @@ runner.run(50).then((results) => {
 
   let folder = `./benching/results-${yyyy}-${mm}-${dd}`;
 
-  fs.mkdirSync(folder);
+  mkdirp(folder);
   fs.writeFileSync(`${folder}/samples.csv`, samplesCSV);
   fs.writeFileSync(`${folder}/gc.csv`, gcCSV);
   fs.writeFileSync(`${folder}/phases.csv`, phasesCSV);
