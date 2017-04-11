@@ -1,7 +1,7 @@
 {
   "har": "./benching/archive/glimmer-hn-4-10-17.har",
   "servers": [{
-    "name": "alpha-with-mods",
+    "name": "baseline",
     "port": 8879
   }]
 }
