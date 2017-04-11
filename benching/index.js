@@ -2,6 +2,7 @@ const ChromeTracing = require('chrome-tracing');
 const Runner = ChromeTracing.Runner;
 const InitialRenderBenchmark = ChromeTracing.InitialRenderBenchmark;
 const fs = require('fs');
+const mkdirp = require('mkdirp').sync;
 let browserOpts = {
   type: "canary"
 };
@@ -15,6 +16,14 @@ let benchmarks = config.servers.map(({ name, port }) => new InitialRenderBenchma
     { start: "domLoading", label: "load" },
     { start: "afterPaint", label: "render" }
   ],
+  cpuThrottleRate: 4,
+  runtimeStats: true,
+  networkConditions: {
+    latency: 400,
+    uploadThroughput: Math.floor(400 * 1024 / 8), // 400kbps
+    downloadThroughput: Math.floor(400 * 1024 / 8), // 400kbps
+    offline: false
+  },
   browser: browserOpts
 }));
 
@@ -47,10 +56,25 @@ runner.run(50).then((results) => {
       });
     });
   });
-  require('fs').writeFileSync('./benching/results/samples.csv', samplesCSV);
-  require('fs').writeFileSync('./benching/results/gc.csv', gcCSV);
-  require('fs').writeFileSync('./benching/results/phases.csv', phasesCSV);
-  require('fs').writeFileSync('./benching/results/results.json', JSON.stringify(results, null, 2));
+  let today = new Date();
+  let dd = today.getDate();
+  let mm = today.getMonth() + 1;
+  let yyyy = today.getFullYear();
+
+  if(dd < 10){
+    dd = `0${dd}`;
+  }
+  if(mm < 10){
+    mm =`0${mm}`;
+  }
+
+  let folder = `./benching/results-${yyyy}-${mm}-${dd}`;
+
+  mkdirp(folder);
+  fs.writeFileSync(`${folder}/samples.csv`, samplesCSV);
+  fs.writeFileSync(`${folder}/gc.csv`, gcCSV);
+  fs.writeFileSync(`${folder}/phases.csv`, phasesCSV);
+  fs.writeFileSync(`${folder}/results.json`, JSON.stringify(results, null, 2));
 }).catch((err) => {
   console.error(err.stack);
   process.exit(1);
