@@ -9,6 +9,15 @@ let browserOpts = {
 
 const config = JSON.parse(fs.readFileSync("./benching/config.json", "utf8"));
 
+const LIGHTHOUSE_NETWORK_CONDTIONS = {
+  latency: 150, // 150ms
+  downloadThroughput: Math.floor(1.6 * 1024 * 1024 / 8), // 1.6Mbps
+  uploadThroughput: Math.floor(750 * 1024 / 8), // 750Kbps
+  offline: false
+};
+
+const LIGHTHOUSE_CPU_THROTTLE = 4.5;
+
 let benchmarks = config.servers.map(({ name, port }) => new InitialRenderBenchmark({
   name,
   url: `http://localhost:${port}/?perf.tracing`,
@@ -16,14 +25,9 @@ let benchmarks = config.servers.map(({ name, port }) => new InitialRenderBenchma
     { start: "domLoading", label: "load" },
     { start: "afterPaint", label: "render" }
   ],
-  cpuThrottleRate: 4,
-  runtimeStats: true,
-  networkConditions: {
-    latency: 400,
-    uploadThroughput: Math.floor(400 * 1024 / 8), // 400kbps
-    downloadThroughput: Math.floor(400 * 1024 / 8), // 400kbps
-    offline: false
-  },
+  cpuThrottleRate: config.cpu || LIGHTHOUSE_CPU_THROTTLE,
+  runtimeStats: config.runtimeStats || false,
+  networkConditions: config.network || LIGHTHOUSE_NETWORK_CONDTIONS,
   browser: browserOpts
 }));
 

@@ -8,9 +8,16 @@ const fs = require('fs');
 const glob = require('glob').sync;
 
 const config = JSON.parse(fs.readFileSync("./benching/config.json", "utf8"));
+let [appFile] = glob('./dist/app-*.js');
 
 config.servers.forEach(server => {
-  startServer(server.name, config.har, server.port);
+  startServer(server.name, config.har, server.port, (key, text) => {
+    if (key === "GET/") {
+      return fs.readFileSync('./dist/index.html', 'utf8');
+    }
+
+    return text;
+  });
 });
 
 function key(method, url) {
@@ -45,12 +52,7 @@ function startServer(name, archivePath, port) {
 
     if (key === "GET/ember-cli-live-reload.js") { return ""; }
 
-    if (key === "GET/") {
-      return fs.readFileSync('./dist/index.html', 'utf8');
-    }
-
     if (key.includes('GET/app-')) {
-      let [appFile] = glob('./dist/app-*.js');
       return fs.readFileSync(appFile, 'utf8');
     }
 
