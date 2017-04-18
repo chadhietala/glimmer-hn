@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "build": "ember build",
+    "build": "ember build --environment=production",
     "start": "ember server",
     "test": "ember test",
     "bench": "node ./benching/index.js",
@@ -18,7 +18,7 @@
     "@glimmer/application-pipeline": "^0.5.2",
     "@glimmer/component": "^0.3.8",
     "@glimmer/resolver": "^0.3.0",
-    "chrome-tracing": "^0.6.0",
+    "chrome-tracing": "^0.7.0",
     "ember-cli": "github:ember-cli/ember-cli",
     "ember-cli-inject-live-reload": "^1.6.1",
     "glob": "^7.1.1",
