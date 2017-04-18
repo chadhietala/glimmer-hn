@@ -18,16 +18,29 @@
     "@glimmer/application-pipeline": "^0.5.2",
     "@glimmer/component": "^0.3.8",
     "@glimmer/resolver": "^0.3.0",
+    "babel-plugin-minify-constant-folding": "^0.0.4",
+    "babel-preset-babili": "^0.0.12",
+    "broccoli-babel-transpiler": "next",
+    "broccoli-concat": "^3.2.2",
+    "broccoli-persistent-filter": "^1.2.13",
+    "broccoli-rollup": "^1.2.0",
     "chrome-tracing": "^0.7.0",
     "ember-cli": "github:ember-cli/ember-cli",
     "ember-cli-inject-live-reload": "^1.6.1",
     "glob": "^7.1.1",
     "har-remix": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "typescript": "^2.2.2"
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1"
   },
   "engines": {
     "node": ">= 4.0"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@glimmer/blueprint": "^0.2.0",
+    "@glimmer/resolution-map-builder": "^0.3.8",
+    "@glimmer/resolver-configuration-builder": "^0.1.2",
+    "ember-cli-babel": "next"
+  }
 }

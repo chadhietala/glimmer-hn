@@ -1,9 +1,56 @@
 'use strict';
 
 const GlimmerApp = require('@glimmer/application-pipeline').GlimmerApp;
+const Babel = require('broccoli-babel-transpiler');
+const babili = require('babel-preset-babili');
+const Concat = require('broccoli-concat');
+const Rollup = require('broccoli-rollup');
+const WebPack = require('./broccoli/webpack-filter');
 
 module.exports = function(defaults) {
-  let app = new GlimmerApp(defaults, {
+  class App extends GlimmerApp {
+
+    _babili() {
+      return babili().presets[0];
+    }
+
+    // package(tree) {
+    //   return new WebPack(tree, {
+    //     entry: 'src/index.js',
+    //     output: {
+    //       filename: 'bundle.js'
+    //     }
+    //   });
+    //   // let babeled = new Babel(tree, Object.assign(this._babili(), {
+    //   //   minified: true,
+    //   //   comments: false,
+    //   // }));
+
+    //   // let rollup = new Rollup(babeled, {
+    //   //   inputFiles: ['**/*.js'],
+    //   //   rollup: {
+    //   //     format: 'umd',
+    //   //     entry: 'src/index.js',
+    //   //     dest: 'app.js',
+    //   //     sourceMap: 'inline'
+    //   //   }
+    //   // });
+
+    //   // return new Concat(rollup, {
+    //   //   outputFile: 'app.js',
+    //   //   inputFiles: ['**/*.js']
+    //   // });
+    // }
+  }
+
+  let app = new App(defaults, {
+    // 'ember-cli-babel': {
+    //   compileModules: false
+    // },
+    // babel6: {
+    //   presets: ['babili'],
+    //   loose: true,
+    // }
     // Add options here
   });
 
