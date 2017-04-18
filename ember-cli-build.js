@@ -5,6 +5,7 @@ const Babel = require('broccoli-babel-transpiler');
 const babili = require('babel-preset-babili');
 const Concat = require('broccoli-concat');
 const Rollup = require('broccoli-rollup');
+const MergeTrees = require('broccoli-merge-trees');
 const WebPack = require('./broccoli/webpack-filter');
 
 module.exports = function(defaults) {
@@ -14,39 +15,41 @@ module.exports = function(defaults) {
       return babili().presets[0];
     }
 
-    // package(tree) {
-    //   return new WebPack(tree, {
-    //     entry: 'src/index.js',
-    //     output: {
-    //       filename: 'bundle.js'
-    //     }
-    //   });
-    //   // let babeled = new Babel(tree, Object.assign(this._babili(), {
-    //   //   minified: true,
-    //   //   comments: false,
-    //   // }));
+    package(jsTree, cssTree, publicTree, htmlTree) {
 
-    //   // let rollup = new Rollup(babeled, {
-    //   //   inputFiles: ['**/*.js'],
-    //   //   rollup: {
-    //   //     format: 'umd',
-    //   //     entry: 'src/index.js',
-    //   //     dest: 'app.js',
-    //   //     sourceMap: 'inline'
-    //   //   }
-    //   // });
+      return new MergeTrees([jsTree, cssTree, publicTree, htmlTree]);
+      // return new WebPack(tree, {
+      //   entry: 'src/index.js',
+      //   output: {
+      //     filename: 'bundle.js'
+      //   }
+      // });
+      // let babeled = new Babel(tree, Object.assign(this._babili(), {
+      //   minified: true,
+      //   comments: false,
+      // }));
 
-    //   // return new Concat(rollup, {
-    //   //   outputFile: 'app.js',
-    //   //   inputFiles: ['**/*.js']
-    //   // });
-    // }
+      // let rollup = new Rollup(babeled, {
+      //   inputFiles: ['**/*.js'],
+      //   rollup: {
+      //     format: 'umd',
+      //     entry: 'src/index.js',
+      //     dest: 'app.js',
+      //     sourceMap: 'inline'
+      //   }
+      // });
+
+      // return new Concat(rollup, {
+      //   outputFile: 'app.js',
+      //   inputFiles: ['**/*.js']
+      // });
+    }
   }
 
   let app = new App(defaults, {
-    // 'ember-cli-babel': {
-    //   compileModules: false
-    // },
+    'ember-cli-babel': {
+      compileModules: false
+    },
     // babel6: {
     //   presets: ['babili'],
     //   loose: true,
