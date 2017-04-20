@@ -9,9 +9,9 @@ We use [Chrome Tracing](https://github.com/krisselden/chrome-tracing) and [HARRe
 ## Setup
 ### Prerequisites
 
-These instructions assume Mac and using homebrew.
+These instructions assume Mac and using [homebrew](https://brew.sh/).
 
-Install R
+Install [R](https://www.r-project.org/)
 ```sh
 brew tap homebrew/science
 brew install r
@@ -22,7 +22,7 @@ Run R
 R
 ```
 
-Then install ggplot2
+Then install [ggplot2](http://ggplot2.org/)
 ```R
 install.packages("ggplot2")
 install.packages("rjson")
