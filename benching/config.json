@@ -9,7 +9,12 @@
     "offline": false
   },
   "servers": [{
-    "name": "baseline",
-    "port": 8879
+    "name": "es5",
+    "port": 8879,
+    "dist": "baseline-dist"
+  }, {
+    "name": "es2017",
+    "port": 8878,
+    "dist": "dist"
   }]
 }
