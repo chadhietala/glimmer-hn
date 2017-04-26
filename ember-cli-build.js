@@ -1,9 +1,15 @@
 'use strict';
 
 const GlimmerApp = require('@glimmer/application-pipeline').GlimmerApp;
+const babili = require('babel-preset-babili');
+const Babel = require('broccoli-babel-transpiler');
+const MergeTrees = require('broccoli-merge-trees');
 
 module.exports = function(defaults) {
   let app = new GlimmerApp(defaults, {
+    'ember-cli-babel': {
+      compileModules: false
+    }
     // Add options here
   });
 
