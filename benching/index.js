@@ -23,7 +23,7 @@ let benchmarks = config.servers.map(({ name, port }) => new InitialRenderBenchma
   url: `http://localhost:${port}/?perf.tracing`,
   markers: [
     { start: "domLoading", label: "load" },
-    { start: "afterPaint", label: "render" }
+    { start: "beforeRender", label: "render" }
   ],
   cpuThrottleRate: config.cpu || LIGHTHOUSE_CPU_THROTTLE,
   runtimeStats: config.runtimeStats || false,
@@ -43,6 +43,8 @@ runner.run(50).then((results) => {
       samplesCSV += set + "," + (sample.run / 1000) + ",run\n";
       samplesCSV += set + "," + (sample.js / 1000) + ",js\n";
       samplesCSV += set + "," + (sample.gc / 1000) + ",gc\n";
+      samplesCSV += set + ',' + (sample.parseOnBackground / 1000) + ',parseOnBackground\n'
+      samplesCSV += set + "," + (sample.callFunction / 1000) + ",callFunction\n"
       samplesCSV += set + "," + (sample.duration / 1000) + ",duration\n";
       sample.gcSamples.forEach(sample => {
         gcCSV += set + "," + sample.usedHeapSizeBefore + ",before\n";

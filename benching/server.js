@@ -12,8 +12,11 @@ let [appFile] = glob('./dist/app-*.js');
 
 config.servers.forEach(server => {
   startServer(server.name, config.har, server.port, (key, text) => {
-    if (key === "GET/") {
-      return fs.readFileSync('./dist/index.html', 'utf8');
+    if (key.includes('GET/app-')) {
+      console.log(server.dist)
+      let [appFile] = glob(`${server.dist}/app-*.js`);
+      console.log(`Replacing key with ${appFile}`);
+      return fs.readFileSync(appFile, 'utf8');
     }
 
     return text;
@@ -32,7 +35,7 @@ function replaceProtocolAndDomain(text, host) {
 }
 
 
-function startServer(name, archivePath, port) {
+function startServer(name, archivePath, port, vary) {
   let host = `localhost:${port}`;
 
   function keyForArchiveEntry(entry) {
@@ -52,9 +55,7 @@ function startServer(name, archivePath, port) {
 
     if (key === "GET/ember-cli-live-reload.js") { return ""; }
 
-    if (key.includes('GET/app-')) {
-      return fs.readFileSync(appFile, 'utf8');
-    }
+    text = vary(key, text);
 
     return replaceProtocolAndDomain(text, host);
   }

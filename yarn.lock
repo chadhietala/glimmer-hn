@@ -1800,9 +1800,9 @@ chrome-debugging-client@^0.3.0:
     rimraf "^2.5.1"
     ws "^1.0.1"
 
-chrome-tracing@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/chrome-tracing/-/chrome-tracing-0.7.0.tgz#1f8733c56ef16a1849df7513ff3e0bbbec2c2d99"
+chrome-tracing@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/chrome-tracing/-/chrome-tracing-0.9.0.tgz#ccb1f3d2d66218d402f611a65ed23dbfb5cb14f9"
   dependencies:
     array-binsearch "^1.0.1"
     chrome-debugging-client "^0.3.0"

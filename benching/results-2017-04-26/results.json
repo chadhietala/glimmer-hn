@@ -1,0 +1,3338 @@
+[
+  {
+    "meta": {
+      "browserVersion": "Chrome/60.0.3080.5",
+      "cpus": [
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz"
+      ]
+    },
+    "samples": [
+      {
+        "callFunction": 121377,
+        "compile": 926,
+        "duration": 369145,
+        "gc": 7743,
+        "gcSamples": [
+          {
+            "duration": 3786,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 3957,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 283826,
+        "parseOnBackground": 97358,
+        "phaseSamples": [
+          {
+            "cumulative": 199453,
+            "phase": "load",
+            "self": 199453
+          },
+          {
+            "cumulative": 369145,
+            "phase": "render",
+            "self": 169692
+          }
+        ],
+        "run": 64165
+      },
+      {
+        "callFunction": 130948,
+        "compile": 813,
+        "duration": 391002,
+        "gc": 7980,
+        "gcSamples": [
+          {
+            "duration": 3460,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4520,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 207031,
+        "parseOnBackground": 5886,
+        "phaseSamples": [
+          {
+            "cumulative": 210243,
+            "phase": "load",
+            "self": 210243
+          },
+          {
+            "cumulative": 391002,
+            "phase": "render",
+            "self": 180759
+          }
+        ],
+        "run": 69384
+      },
+      {
+        "callFunction": 120709,
+        "compile": 951,
+        "duration": 364825,
+        "gc": 8082,
+        "gcSamples": [
+          {
+            "duration": 3946,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4136,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 280441,
+        "parseOnBackground": 96901,
+        "phaseSamples": [
+          {
+            "cumulative": 193827,
+            "phase": "load",
+            "self": 193827
+          },
+          {
+            "cumulative": 364825,
+            "phase": "render",
+            "self": 170998
+          }
+        ],
+        "run": 61880
+      },
+      {
+        "callFunction": 122136,
+        "compile": 564,
+        "duration": 371773,
+        "gc": 7923,
+        "gcSamples": [
+          {
+            "duration": 3764,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4159,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 285442,
+        "parseOnBackground": 96284,
+        "phaseSamples": [
+          {
+            "cumulative": 199955,
+            "phase": "load",
+            "self": 199955
+          },
+          {
+            "cumulative": 371773,
+            "phase": "render",
+            "self": 171818
+          }
+        ],
+        "run": 66458
+      },
+      {
+        "callFunction": 126130,
+        "compile": 771,
+        "duration": 369134,
+        "gc": 7446,
+        "gcSamples": [
+          {
+            "duration": 3294,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4152,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 282411,
+        "parseOnBackground": 93291,
+        "phaseSamples": [
+          {
+            "cumulative": 192038,
+            "phase": "load",
+            "self": 192038
+          },
+          {
+            "cumulative": 369134,
+            "phase": "render",
+            "self": 177096
+          }
+        ],
+        "run": 62219
+      },
+      {
+        "callFunction": 129571,
+        "compile": 830,
+        "duration": 373125,
+        "gc": 8103,
+        "gcSamples": [
+          {
+            "duration": 3460,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4643,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 202684,
+        "parseOnBackground": 4949,
+        "phaseSamples": [
+          {
+            "cumulative": 195630,
+            "phase": "load",
+            "self": 195630
+          },
+          {
+            "cumulative": 373125,
+            "phase": "render",
+            "self": 177495
+          }
+        ],
+        "run": 67334
+      },
+      {
+        "callFunction": 123473,
+        "compile": 783,
+        "duration": 371624,
+        "gc": 7741,
+        "gcSamples": [
+          {
+            "duration": 3625,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4116,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 289226,
+        "parseOnBackground": 100025,
+        "phaseSamples": [
+          {
+            "cumulative": 199509,
+            "phase": "load",
+            "self": 199509
+          },
+          {
+            "cumulative": 371624,
+            "phase": "render",
+            "self": 172115
+          }
+        ],
+        "run": 64945
+      },
+      {
+        "callFunction": 124323,
+        "compile": 833,
+        "duration": 366285,
+        "gc": 7811,
+        "gcSamples": [
+          {
+            "duration": 3863,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 3948,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 191457,
+        "parseOnBackground": 5279,
+        "phaseSamples": [
+          {
+            "cumulative": 193797,
+            "phase": "load",
+            "self": 193797
+          },
+          {
+            "cumulative": 366285,
+            "phase": "render",
+            "self": 172488
+          }
+        ],
+        "run": 61022
+      },
+      {
+        "callFunction": 123795,
+        "compile": 752,
+        "duration": 369284,
+        "gc": 8037,
+        "gcSamples": [
+          {
+            "duration": 3879,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4158,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 190730,
+        "parseOnBackground": 6112,
+        "phaseSamples": [
+          {
+            "cumulative": 195064,
+            "phase": "load",
+            "self": 195064
+          },
+          {
+            "cumulative": 369284,
+            "phase": "render",
+            "self": 174220
+          }
+        ],
+        "run": 60071
+      },
+      {
+        "callFunction": 123210,
+        "compile": 728,
+        "duration": 366022,
+        "gc": 8688,
+        "gcSamples": [
+          {
+            "duration": 4438,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4250,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 281258,
+        "parseOnBackground": 95466,
+        "phaseSamples": [
+          {
+            "cumulative": 194055,
+            "phase": "load",
+            "self": 194055
+          },
+          {
+            "cumulative": 366022,
+            "phase": "render",
+            "self": 171967
+          }
+        ],
+        "run": 61854
+      },
+      {
+        "callFunction": 121152,
+        "compile": 991,
+        "duration": 362671,
+        "gc": 8166,
+        "gcSamples": [
+          {
+            "duration": 3671,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4495,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 189030,
+        "parseOnBackground": 5086,
+        "phaseSamples": [
+          {
+            "cumulative": 194060,
+            "phase": "load",
+            "self": 194060
+          },
+          {
+            "cumulative": 362671,
+            "phase": "render",
+            "self": 168611
+          }
+        ],
+        "run": 61801
+      },
+      {
+        "callFunction": 124553,
+        "compile": 741,
+        "duration": 369117,
+        "gc": 8053,
+        "gcSamples": [
+          {
+            "duration": 4121,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 3932,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 192685,
+        "parseOnBackground": 5271,
+        "phaseSamples": [
+          {
+            "cumulative": 193069,
+            "phase": "load",
+            "self": 193069
+          },
+          {
+            "cumulative": 369117,
+            "phase": "render",
+            "self": 176048
+          }
+        ],
+        "run": 62120
+      },
+      {
+        "callFunction": 123717,
+        "compile": 795,
+        "duration": 365523,
+        "gc": 8564,
+        "gcSamples": [
+          {
+            "duration": 3691,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4873,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 193138,
+        "parseOnBackground": 5498,
+        "phaseSamples": [
+          {
+            "cumulative": 195295,
+            "phase": "load",
+            "self": 195295
+          },
+          {
+            "cumulative": 365523,
+            "phase": "render",
+            "self": 170228
+          }
+        ],
+        "run": 63128
+      },
+      {
+        "callFunction": 124401,
+        "compile": 729,
+        "duration": 371949,
+        "gc": 9067,
+        "gcSamples": [
+          {
+            "duration": 4846,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4221,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 193275,
+        "parseOnBackground": 5825,
+        "phaseSamples": [
+          {
+            "cumulative": 198520,
+            "phase": "load",
+            "self": 198520
+          },
+          {
+            "cumulative": 371949,
+            "phase": "render",
+            "self": 173429
+          }
+        ],
+        "run": 62320
+      },
+      {
+        "callFunction": 122319,
+        "compile": 817,
+        "duration": 367919,
+        "gc": 8190,
+        "gcSamples": [
+          {
+            "duration": 3475,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4715,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 285205,
+        "parseOnBackground": 97149,
+        "phaseSamples": [
+          {
+            "cumulative": 197478,
+            "phase": "load",
+            "self": 197478
+          },
+          {
+            "cumulative": 367919,
+            "phase": "render",
+            "self": 170441
+          }
+        ],
+        "run": 64920
+      },
+      {
+        "callFunction": 127464,
+        "compile": 930,
+        "duration": 367707,
+        "gc": 7517,
+        "gcSamples": [
+          {
+            "duration": 3562,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 3955,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 197887,
+        "parseOnBackground": 5337,
+        "phaseSamples": [
+          {
+            "cumulative": 192812,
+            "phase": "load",
+            "self": 192812
+          },
+          {
+            "cumulative": 367707,
+            "phase": "render",
+            "self": 174895
+          }
+        ],
+        "run": 64156
+      },
+      {
+        "callFunction": 123768,
+        "compile": 1147,
+        "duration": 374105,
+        "gc": 7565,
+        "gcSamples": [
+          {
+            "duration": 3439,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4126,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 283128,
+        "parseOnBackground": 95511,
+        "phaseSamples": [
+          {
+            "cumulative": 195671,
+            "phase": "load",
+            "self": 195671
+          },
+          {
+            "cumulative": 374105,
+            "phase": "render",
+            "self": 178434
+          }
+        ],
+        "run": 62702
+      },
+      {
+        "callFunction": 126107,
+        "compile": 773,
+        "duration": 369237,
+        "gc": 7422,
+        "gcSamples": [
+          {
+            "duration": 3199,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4223,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 198048,
+        "parseOnBackground": 4876,
+        "phaseSamples": [
+          {
+            "cumulative": 194809,
+            "phase": "load",
+            "self": 194809
+          },
+          {
+            "cumulative": 369237,
+            "phase": "render",
+            "self": 174428
+          }
+        ],
+        "run": 66292
+      },
+      {
+        "callFunction": 121344,
+        "compile": 974,
+        "duration": 362343,
+        "gc": 7921,
+        "gcSamples": [
+          {
+            "duration": 3583,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4338,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 189834,
+        "parseOnBackground": 5390,
+        "phaseSamples": [
+          {
+            "cumulative": 193836,
+            "phase": "load",
+            "self": 193836
+          },
+          {
+            "cumulative": 362343,
+            "phase": "render",
+            "self": 168507
+          }
+        ],
+        "run": 62126
+      },
+      {
+        "callFunction": 132523,
+        "compile": 784,
+        "duration": 379342,
+        "gc": 8932,
+        "gcSamples": [
+          {
+            "duration": 3809,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 5123,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 203910,
+        "parseOnBackground": 5297,
+        "phaseSamples": [
+          {
+            "cumulative": 199903,
+            "phase": "load",
+            "self": 199903
+          },
+          {
+            "cumulative": 379342,
+            "phase": "render",
+            "self": 179439
+          }
+        ],
+        "run": 65306
+      },
+      {
+        "callFunction": 125086,
+        "compile": 738,
+        "duration": 376293,
+        "gc": 8598,
+        "gcSamples": [
+          {
+            "duration": 4406,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4192,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 287967,
+        "parseOnBackground": 96769,
+        "phaseSamples": [
+          {
+            "cumulative": 201671,
+            "phase": "load",
+            "self": 201671
+          },
+          {
+            "cumulative": 376293,
+            "phase": "render",
+            "self": 174622
+          }
+        ],
+        "run": 65374
+      },
+      {
+        "callFunction": 127360,
+        "compile": 1182,
+        "duration": 378219,
+        "gc": 8875,
+        "gcSamples": [
+          {
+            "duration": 3937,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4938,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 290505,
+        "parseOnBackground": 94745,
+        "phaseSamples": [
+          {
+            "cumulative": 200240,
+            "phase": "load",
+            "self": 200240
+          },
+          {
+            "cumulative": 378219,
+            "phase": "render",
+            "self": 177979
+          }
+        ],
+        "run": 67218
+      },
+      {
+        "callFunction": 129806,
+        "compile": 802,
+        "duration": 384354,
+        "gc": 7781,
+        "gcSamples": [
+          {
+            "duration": 3343,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4438,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 207964,
+        "parseOnBackground": 5552,
+        "phaseSamples": [
+          {
+            "cumulative": 204330,
+            "phase": "load",
+            "self": 204330
+          },
+          {
+            "cumulative": 384354,
+            "phase": "render",
+            "self": 180024
+          }
+        ],
+        "run": 71804
+      },
+      {
+        "callFunction": 123002,
+        "compile": 1262,
+        "duration": 364578,
+        "gc": 7742,
+        "gcSamples": [
+          {
+            "duration": 3753,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 3989,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 191636,
+        "parseOnBackground": 5261,
+        "phaseSamples": [
+          {
+            "cumulative": 193315,
+            "phase": "load",
+            "self": 193315
+          },
+          {
+            "cumulative": 364578,
+            "phase": "render",
+            "self": 171263
+          }
+        ],
+        "run": 62111
+      },
+      {
+        "callFunction": 121946,
+        "compile": 592,
+        "duration": 368864,
+        "gc": 7468,
+        "gcSamples": [
+          {
+            "duration": 3499,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 3969,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 285306,
+        "parseOnBackground": 97778,
+        "phaseSamples": [
+          {
+            "cumulative": 199301,
+            "phase": "load",
+            "self": 199301
+          },
+          {
+            "cumulative": 368864,
+            "phase": "render",
+            "self": 169563
+          }
+        ],
+        "run": 64990
+      },
+      {
+        "callFunction": 127713,
+        "compile": 774,
+        "duration": 376078,
+        "gc": 9518,
+        "gcSamples": [
+          {
+            "duration": 4651,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4867,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 199632,
+        "parseOnBackground": 5239,
+        "phaseSamples": [
+          {
+            "cumulative": 200663,
+            "phase": "load",
+            "self": 200663
+          },
+          {
+            "cumulative": 376078,
+            "phase": "render",
+            "self": 175415
+          }
+        ],
+        "run": 65906
+      },
+      {
+        "callFunction": 126540,
+        "compile": 971,
+        "duration": 370144,
+        "gc": 7403,
+        "gcSamples": [
+          {
+            "duration": 3266,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4137,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 198311,
+        "parseOnBackground": 4900,
+        "phaseSamples": [
+          {
+            "cumulative": 194389,
+            "phase": "load",
+            "self": 194389
+          },
+          {
+            "cumulative": 370144,
+            "phase": "render",
+            "self": 175755
+          }
+        ],
+        "run": 65900
+      },
+      {
+        "callFunction": 122518,
+        "compile": 953,
+        "duration": 364188,
+        "gc": 7943,
+        "gcSamples": [
+          {
+            "duration": 3456,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4487,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 281562,
+        "parseOnBackground": 96488,
+        "phaseSamples": [
+          {
+            "cumulative": 193983,
+            "phase": "load",
+            "self": 193983
+          },
+          {
+            "cumulative": 364188,
+            "phase": "render",
+            "self": 170205
+          }
+        ],
+        "run": 61603
+      },
+      {
+        "callFunction": 125824,
+        "compile": 984,
+        "duration": 365125,
+        "gc": 7505,
+        "gcSamples": [
+          {
+            "duration": 3468,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4037,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 281132,
+        "parseOnBackground": 92321,
+        "phaseSamples": [
+          {
+            "cumulative": 192236,
+            "phase": "load",
+            "self": 192236
+          },
+          {
+            "cumulative": 365125,
+            "phase": "render",
+            "self": 172889
+          }
+        ],
+        "run": 62003
+      },
+      {
+        "callFunction": 125294,
+        "compile": 776,
+        "duration": 371465,
+        "gc": 7976,
+        "gcSamples": [
+          {
+            "duration": 3928,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4048,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 194090,
+        "parseOnBackground": 5301,
+        "phaseSamples": [
+          {
+            "cumulative": 196951,
+            "phase": "load",
+            "self": 196951
+          },
+          {
+            "cumulative": 371465,
+            "phase": "render",
+            "self": 174514
+          }
+        ],
+        "run": 62719
+      },
+      {
+        "callFunction": 129312,
+        "compile": 927,
+        "duration": 374673,
+        "gc": 9432,
+        "gcSamples": [
+          {
+            "duration": 4873,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4559,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 287109,
+        "parseOnBackground": 96928,
+        "phaseSamples": [
+          {
+            "cumulative": 193170,
+            "phase": "load",
+            "self": 193170
+          },
+          {
+            "cumulative": 374673,
+            "phase": "render",
+            "self": 181503
+          }
+        ],
+        "run": 59942
+      },
+      {
+        "callFunction": 124862,
+        "compile": 950,
+        "duration": 372109,
+        "gc": 8046,
+        "gcSamples": [
+          {
+            "duration": 3910,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4136,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 195634,
+        "parseOnBackground": 5442,
+        "phaseSamples": [
+          {
+            "cumulative": 199383,
+            "phase": "load",
+            "self": 199383
+          },
+          {
+            "cumulative": 372109,
+            "phase": "render",
+            "self": 172726
+          }
+        ],
+        "run": 64380
+      },
+      {
+        "callFunction": 124414,
+        "compile": 784,
+        "duration": 371736,
+        "gc": 8972,
+        "gcSamples": [
+          {
+            "duration": 4830,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4142,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 195005,
+        "parseOnBackground": 5725,
+        "phaseSamples": [
+          {
+            "cumulative": 198108,
+            "phase": "load",
+            "self": 198108
+          },
+          {
+            "cumulative": 371736,
+            "phase": "render",
+            "self": 173628
+          }
+        ],
+        "run": 64082
+      },
+      {
+        "callFunction": 128278,
+        "compile": 636,
+        "duration": 374079,
+        "gc": 8345,
+        "gcSamples": [
+          {
+            "duration": 4379,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 3966,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 196323,
+        "parseOnBackground": 5367,
+        "phaseSamples": [
+          {
+            "cumulative": 193151,
+            "phase": "load",
+            "self": 193151
+          },
+          {
+            "cumulative": 374079,
+            "phase": "render",
+            "self": 180928
+          }
+        ],
+        "run": 62042
+      },
+      {
+        "callFunction": 123846,
+        "compile": 790,
+        "duration": 368201,
+        "gc": 7809,
+        "gcSamples": [
+          {
+            "duration": 3637,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4172,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 192685,
+        "parseOnBackground": 5148,
+        "phaseSamples": [
+          {
+            "cumulative": 195423,
+            "phase": "load",
+            "self": 195423
+          },
+          {
+            "cumulative": 368201,
+            "phase": "render",
+            "self": 172778
+          }
+        ],
+        "run": 62901
+      },
+      {
+        "callFunction": 122834,
+        "compile": 776,
+        "duration": 370407,
+        "gc": 7600,
+        "gcSamples": [
+          {
+            "duration": 3528,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4072,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 287437,
+        "parseOnBackground": 97090,
+        "phaseSamples": [
+          {
+            "cumulative": 198850,
+            "phase": "load",
+            "self": 198850
+          },
+          {
+            "cumulative": 370407,
+            "phase": "render",
+            "self": 171557
+          }
+        ],
+        "run": 66737
+      },
+      {
+        "callFunction": 126712,
+        "compile": 931,
+        "duration": 367620,
+        "gc": 8315,
+        "gcSamples": [
+          {
+            "duration": 4127,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4188,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 283115,
+        "parseOnBackground": 94341,
+        "phaseSamples": [
+          {
+            "cumulative": 192511,
+            "phase": "load",
+            "self": 192511
+          },
+          {
+            "cumulative": 367620,
+            "phase": "render",
+            "self": 175109
+          }
+        ],
+        "run": 61131
+      },
+      {
+        "callFunction": 126336,
+        "compile": 964,
+        "duration": 373059,
+        "gc": 9362,
+        "gcSamples": [
+          {
+            "duration": 4964,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4398,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 198707,
+        "parseOnBackground": 6402,
+        "phaseSamples": [
+          {
+            "cumulative": 195285,
+            "phase": "load",
+            "self": 195285
+          },
+          {
+            "cumulative": 373059,
+            "phase": "render",
+            "self": 177774
+          }
+        ],
+        "run": 65005
+      },
+      {
+        "callFunction": 126283,
+        "compile": 785,
+        "duration": 372647,
+        "gc": 8459,
+        "gcSamples": [
+          {
+            "duration": 4264,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4195,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 199713,
+        "parseOnBackground": 5369,
+        "phaseSamples": [
+          {
+            "cumulative": 196810,
+            "phase": "load",
+            "self": 196810
+          },
+          {
+            "cumulative": 372647,
+            "phase": "render",
+            "self": 175837
+          }
+        ],
+        "run": 67276
+      },
+      {
+        "callFunction": 126991,
+        "compile": 1014,
+        "duration": 371392,
+        "gc": 8723,
+        "gcSamples": [
+          {
+            "duration": 4014,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4709,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 196378,
+        "parseOnBackground": 5280,
+        "phaseSamples": [
+          {
+            "cumulative": 194586,
+            "phase": "load",
+            "self": 194586
+          },
+          {
+            "cumulative": 371392,
+            "phase": "render",
+            "self": 176806
+          }
+        ],
+        "run": 63093
+      },
+      {
+        "callFunction": 128927,
+        "compile": 753,
+        "duration": 377339,
+        "gc": 8526,
+        "gcSamples": [
+          {
+            "duration": 4151,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4375,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 291900,
+        "parseOnBackground": 97130,
+        "phaseSamples": [
+          {
+            "cumulative": 201291,
+            "phase": "load",
+            "self": 201291
+          },
+          {
+            "cumulative": 377339,
+            "phase": "render",
+            "self": 176048
+          }
+        ],
+        "run": 65090
+      },
+      {
+        "callFunction": 126341,
+        "compile": 751,
+        "duration": 378222,
+        "gc": 7528,
+        "gcSamples": [
+          {
+            "duration": 3603,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 3925,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 197166,
+        "parseOnBackground": 5456,
+        "phaseSamples": [
+          {
+            "cumulative": 203182,
+            "phase": "load",
+            "self": 203182
+          },
+          {
+            "cumulative": 378222,
+            "phase": "render",
+            "self": 175040
+          }
+        ],
+        "run": 64618
+      },
+      {
+        "callFunction": 126688,
+        "compile": 751,
+        "duration": 371488,
+        "gc": 8192,
+        "gcSamples": [
+          {
+            "duration": 4233,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 3959,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 285510,
+        "parseOnBackground": 95170,
+        "phaseSamples": [
+          {
+            "cumulative": 197406,
+            "phase": "load",
+            "self": 197406
+          },
+          {
+            "cumulative": 371488,
+            "phase": "render",
+            "self": 174082
+          }
+        ],
+        "run": 62901
+      },
+      {
+        "callFunction": 129125,
+        "compile": 570,
+        "duration": 372316,
+        "gc": 7906,
+        "gcSamples": [
+          {
+            "duration": 3693,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4213,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 289265,
+        "parseOnBackground": 97415,
+        "phaseSamples": [
+          {
+            "cumulative": 196419,
+            "phase": "load",
+            "self": 196419
+          },
+          {
+            "cumulative": 372316,
+            "phase": "render",
+            "self": 175897
+          }
+        ],
+        "run": 62155
+      },
+      {
+        "callFunction": 140133,
+        "compile": 636,
+        "duration": 391507,
+        "gc": 8020,
+        "gcSamples": [
+          {
+            "duration": 3814,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4206,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 301328,
+        "parseOnBackground": 96167,
+        "phaseSamples": [
+          {
+            "cumulative": 196852,
+            "phase": "load",
+            "self": 196852
+          },
+          {
+            "cumulative": 391507,
+            "phase": "render",
+            "self": 194655
+          }
+        ],
+        "run": 64392
+      },
+      {
+        "callFunction": 123293,
+        "compile": 961,
+        "duration": 367342,
+        "gc": 7797,
+        "gcSamples": [
+          {
+            "duration": 3631,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4166,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 283426,
+        "parseOnBackground": 96008,
+        "phaseSamples": [
+          {
+            "cumulative": 196417,
+            "phase": "load",
+            "self": 196417
+          },
+          {
+            "cumulative": 367342,
+            "phase": "render",
+            "self": 170925
+          }
+        ],
+        "run": 63164
+      },
+      {
+        "callFunction": 126238,
+        "compile": 803,
+        "duration": 369515,
+        "gc": 8143,
+        "gcSamples": [
+          {
+            "duration": 3531,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4612,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 195336,
+        "parseOnBackground": 5710,
+        "phaseSamples": [
+          {
+            "cumulative": 195153,
+            "phase": "load",
+            "self": 195153
+          },
+          {
+            "cumulative": 369515,
+            "phase": "render",
+            "self": 174362
+          }
+        ],
+        "run": 62585
+      },
+      {
+        "callFunction": 127339,
+        "compile": 1187,
+        "duration": 368597,
+        "gc": 7907,
+        "gcSamples": [
+          {
+            "duration": 3776,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 4131,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 194656,
+        "parseOnBackground": 5394,
+        "phaseSamples": [
+          {
+            "cumulative": 192046,
+            "phase": "load",
+            "self": 192046
+          },
+          {
+            "cumulative": 368597,
+            "phase": "render",
+            "self": 176551
+          }
+        ],
+        "run": 60736
+      },
+      {
+        "callFunction": 125008,
+        "compile": 641,
+        "duration": 368929,
+        "gc": 7446,
+        "gcSamples": [
+          {
+            "duration": 3506,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 3940,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 194853,
+        "parseOnBackground": 5130,
+        "phaseSamples": [
+          {
+            "cumulative": 195247,
+            "phase": "load",
+            "self": 195247
+          },
+          {
+            "cumulative": 368929,
+            "phase": "render",
+            "self": 173682
+          }
+        ],
+        "run": 64074
+      },
+      {
+        "callFunction": 119753,
+        "compile": 761,
+        "duration": 365529,
+        "gc": 9646,
+        "gcSamples": [
+          {
+            "duration": 5695,
+            "usedHeapSizeAfter": 4000280,
+            "usedHeapSizeBefore": 4519360
+          },
+          {
+            "duration": 3951,
+            "usedHeapSizeAfter": 4594952,
+            "usedHeapSizeBefore": 5006160
+          }
+        ],
+        "js": 277266,
+        "parseOnBackground": 94696,
+        "phaseSamples": [
+          {
+            "cumulative": 195245,
+            "phase": "load",
+            "self": 195245
+          },
+          {
+            "cumulative": 365529,
+            "phase": "render",
+            "self": 170284
+          }
+        ],
+        "run": 62056
+      }
+    ],
+    "set": "es5"
+  },
+  {
+    "meta": {
+      "browserVersion": "Chrome/60.0.3080.5",
+      "cpus": [
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz"
+      ]
+    },
+    "samples": [
+      {
+        "callFunction": 131650,
+        "compile": 943,
+        "duration": 371460,
+        "gc": 8185,
+        "gcSamples": [
+          {
+            "duration": 3274,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4911,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 287541,
+        "parseOnBackground": 94620,
+        "phaseSamples": [
+          {
+            "cumulative": 190601,
+            "phase": "load",
+            "self": 190601
+          },
+          {
+            "cumulative": 371460,
+            "phase": "render",
+            "self": 180859
+          }
+        ],
+        "run": 60328
+      },
+      {
+        "callFunction": 130474,
+        "compile": 993,
+        "duration": 366245,
+        "gc": 7957,
+        "gcSamples": [
+          {
+            "duration": 4015,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 3942,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 193700,
+        "parseOnBackground": 4312,
+        "phaseSamples": [
+          {
+            "cumulative": 187373,
+            "phase": "load",
+            "self": 187373
+          },
+          {
+            "cumulative": 366245,
+            "phase": "render",
+            "self": 178872
+          }
+        ],
+        "run": 57921
+      },
+      {
+        "callFunction": 131552,
+        "compile": 1189,
+        "duration": 368284,
+        "gc": 7832,
+        "gcSamples": [
+          {
+            "duration": 3365,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4467,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 195877,
+        "parseOnBackground": 4453,
+        "phaseSamples": [
+          {
+            "cumulative": 186558,
+            "phase": "load",
+            "self": 186558
+          },
+          {
+            "cumulative": 368284,
+            "phase": "render",
+            "self": 181726
+          }
+        ],
+        "run": 58683
+      },
+      {
+        "callFunction": 136707,
+        "compile": 947,
+        "duration": 369243,
+        "gc": 7896,
+        "gcSamples": [
+          {
+            "duration": 3755,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4141,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 199990,
+        "parseOnBackground": 5191,
+        "phaseSamples": [
+          {
+            "cumulative": 184310,
+            "phase": "load",
+            "self": 184310
+          },
+          {
+            "cumulative": 369243,
+            "phase": "render",
+            "self": 184933
+          }
+        ],
+        "run": 57145
+      },
+      {
+        "callFunction": 130270,
+        "compile": 768,
+        "duration": 365972,
+        "gc": 7670,
+        "gcSamples": [
+          {
+            "duration": 3524,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4146,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 191086,
+        "parseOnBackground": 4454,
+        "phaseSamples": [
+          {
+            "cumulative": 188371,
+            "phase": "load",
+            "self": 188371
+          },
+          {
+            "cumulative": 365972,
+            "phase": "render",
+            "self": 177601
+          }
+        ],
+        "run": 55594
+      },
+      {
+        "callFunction": 130318,
+        "compile": 1183,
+        "duration": 364859,
+        "gc": 7403,
+        "gcSamples": [
+          {
+            "duration": 3257,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4146,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 192320,
+        "parseOnBackground": 4765,
+        "phaseSamples": [
+          {
+            "cumulative": 186989,
+            "phase": "load",
+            "self": 186989
+          },
+          {
+            "cumulative": 364859,
+            "phase": "render",
+            "self": 177870
+          }
+        ],
+        "run": 56054
+      },
+      {
+        "callFunction": 133116,
+        "compile": 968,
+        "duration": 370509,
+        "gc": 8246,
+        "gcSamples": [
+          {
+            "duration": 3796,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4450,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 195230,
+        "parseOnBackground": 4575,
+        "phaseSamples": [
+          {
+            "cumulative": 188428,
+            "phase": "load",
+            "self": 188428
+          },
+          {
+            "cumulative": 370509,
+            "phase": "render",
+            "self": 182081
+          }
+        ],
+        "run": 56571
+      },
+      {
+        "callFunction": 135679,
+        "compile": 801,
+        "duration": 371166,
+        "gc": 8598,
+        "gcSamples": [
+          {
+            "duration": 4158,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4440,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 288175,
+        "parseOnBackground": 92635,
+        "phaseSamples": [
+          {
+            "cumulative": 186819,
+            "phase": "load",
+            "self": 186819
+          },
+          {
+            "cumulative": 371166,
+            "phase": "render",
+            "self": 184347
+          }
+        ],
+        "run": 59060
+      },
+      {
+        "callFunction": 130053,
+        "compile": 756,
+        "duration": 365098,
+        "gc": 7765,
+        "gcSamples": [
+          {
+            "duration": 3462,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4303,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 189773,
+        "parseOnBackground": 4081,
+        "phaseSamples": [
+          {
+            "cumulative": 187485,
+            "phase": "load",
+            "self": 187485
+          },
+          {
+            "cumulative": 365098,
+            "phase": "render",
+            "self": 177613
+          }
+        ],
+        "run": 54883
+      },
+      {
+        "callFunction": 135579,
+        "compile": 778,
+        "duration": 368435,
+        "gc": 8234,
+        "gcSamples": [
+          {
+            "duration": 3589,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4645,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 283107,
+        "parseOnBackground": 91208,
+        "phaseSamples": [
+          {
+            "cumulative": 185081,
+            "phase": "load",
+            "self": 185081
+          },
+          {
+            "cumulative": 368435,
+            "phase": "render",
+            "self": 183354
+          }
+        ],
+        "run": 55542
+      },
+      {
+        "callFunction": 133572,
+        "compile": 1263,
+        "duration": 373308,
+        "gc": 7574,
+        "gcSamples": [
+          {
+            "duration": 3322,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4252,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 288943,
+        "parseOnBackground": 95066,
+        "phaseSamples": [
+          {
+            "cumulative": 188235,
+            "phase": "load",
+            "self": 188235
+          },
+          {
+            "cumulative": 373308,
+            "phase": "render",
+            "self": 185073
+          }
+        ],
+        "run": 59042
+      },
+      {
+        "callFunction": 132250,
+        "compile": 756,
+        "duration": 371073,
+        "gc": 7636,
+        "gcSamples": [
+          {
+            "duration": 3478,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4158,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 287948,
+        "parseOnBackground": 96357,
+        "phaseSamples": [
+          {
+            "cumulative": 190692,
+            "phase": "load",
+            "self": 190692
+          },
+          {
+            "cumulative": 371073,
+            "phase": "render",
+            "self": 180381
+          }
+        ],
+        "run": 58585
+      },
+      {
+        "callFunction": 133636,
+        "compile": 918,
+        "duration": 368260,
+        "gc": 8366,
+        "gcSamples": [
+          {
+            "duration": 3915,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4451,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 285645,
+        "parseOnBackground": 93294,
+        "phaseSamples": [
+          {
+            "cumulative": 185879,
+            "phase": "load",
+            "self": 185879
+          },
+          {
+            "cumulative": 368260,
+            "phase": "render",
+            "self": 182381
+          }
+        ],
+        "run": 57797
+      },
+      {
+        "callFunction": 132615,
+        "compile": 961,
+        "duration": 370864,
+        "gc": 8463,
+        "gcSamples": [
+          {
+            "duration": 3868,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4595,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 288234,
+        "parseOnBackground": 98647,
+        "phaseSamples": [
+          {
+            "cumulative": 189753,
+            "phase": "load",
+            "self": 189753
+          },
+          {
+            "cumulative": 370864,
+            "phase": "render",
+            "self": 181111
+          }
+        ],
+        "run": 56011
+      },
+      {
+        "callFunction": 136159,
+        "compile": 982,
+        "duration": 372864,
+        "gc": 7436,
+        "gcSamples": [
+          {
+            "duration": 3319,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4117,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 200001,
+        "parseOnBackground": 4217,
+        "phaseSamples": [
+          {
+            "cumulative": 188143,
+            "phase": "load",
+            "self": 188143
+          },
+          {
+            "cumulative": 372864,
+            "phase": "render",
+            "self": 184721
+          }
+        ],
+        "run": 58643
+      },
+      {
+        "callFunction": 135925,
+        "compile": 821,
+        "duration": 377947,
+        "gc": 8508,
+        "gcSamples": [
+          {
+            "duration": 3527,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4981,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 201356,
+        "parseOnBackground": 4729,
+        "phaseSamples": [
+          {
+            "cumulative": 188235,
+            "phase": "load",
+            "self": 188235
+          },
+          {
+            "cumulative": 377947,
+            "phase": "render",
+            "self": 189712
+          }
+        ],
+        "run": 59881
+      },
+      {
+        "callFunction": 136145,
+        "compile": 1035,
+        "duration": 378652,
+        "gc": 7893,
+        "gcSamples": [
+          {
+            "duration": 3441,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4452,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 199310,
+        "parseOnBackground": 4468,
+        "phaseSamples": [
+          {
+            "cumulative": 191472,
+            "phase": "load",
+            "self": 191472
+          },
+          {
+            "cumulative": 378652,
+            "phase": "render",
+            "self": 187180
+          }
+        ],
+        "run": 57662
+      },
+      {
+        "callFunction": 131873,
+        "compile": 966,
+        "duration": 369431,
+        "gc": 7826,
+        "gcSamples": [
+          {
+            "duration": 3675,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4151,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 194935,
+        "parseOnBackground": 4736,
+        "phaseSamples": [
+          {
+            "cumulative": 189225,
+            "phase": "load",
+            "self": 189225
+          },
+          {
+            "cumulative": 369431,
+            "phase": "render",
+            "self": 180206
+          }
+        ],
+        "run": 57360
+      },
+      {
+        "callFunction": 130979,
+        "compile": 619,
+        "duration": 367364,
+        "gc": 8205,
+        "gcSamples": [
+          {
+            "duration": 3751,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4454,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 282851,
+        "parseOnBackground": 94613,
+        "phaseSamples": [
+          {
+            "cumulative": 188316,
+            "phase": "load",
+            "self": 188316
+          },
+          {
+            "cumulative": 367364,
+            "phase": "render",
+            "self": 179048
+          }
+        ],
+        "run": 56640
+      },
+      {
+        "callFunction": 130623,
+        "compile": 825,
+        "duration": 363994,
+        "gc": 7495,
+        "gcSamples": [
+          {
+            "duration": 3559,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 3936,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 282097,
+        "parseOnBackground": 96464,
+        "phaseSamples": [
+          {
+            "cumulative": 184922,
+            "phase": "load",
+            "self": 184922
+          },
+          {
+            "cumulative": 363994,
+            "phase": "render",
+            "self": 179072
+          }
+        ],
+        "run": 54185
+      },
+      {
+        "callFunction": 134283,
+        "compile": 958,
+        "duration": 379001,
+        "gc": 7767,
+        "gcSamples": [
+          {
+            "duration": 3539,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4228,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 200757,
+        "parseOnBackground": 5069,
+        "phaseSamples": [
+          {
+            "cumulative": 192231,
+            "phase": "load",
+            "self": 192231
+          },
+          {
+            "cumulative": 379001,
+            "phase": "render",
+            "self": 186770
+          }
+        ],
+        "run": 60447
+      },
+      {
+        "callFunction": 134557,
+        "compile": 1014,
+        "duration": 372955,
+        "gc": 9460,
+        "gcSamples": [
+          {
+            "duration": 4917,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4543,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 197173,
+        "parseOnBackground": 4701,
+        "phaseSamples": [
+          {
+            "cumulative": 191149,
+            "phase": "load",
+            "self": 191149
+          },
+          {
+            "cumulative": 372955,
+            "phase": "render",
+            "self": 181806
+          }
+        ],
+        "run": 56901
+      },
+      {
+        "callFunction": 143115,
+        "compile": 1055,
+        "duration": 394465,
+        "gc": 8772,
+        "gcSamples": [
+          {
+            "duration": 3879,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4893,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 309050,
+        "parseOnBackground": 99435,
+        "phaseSamples": [
+          {
+            "cumulative": 203169,
+            "phase": "load",
+            "self": 203169
+          },
+          {
+            "cumulative": 394465,
+            "phase": "render",
+            "self": 191296
+          }
+        ],
+        "run": 65445
+      },
+      {
+        "callFunction": 136763,
+        "compile": 605,
+        "duration": 376263,
+        "gc": 8370,
+        "gcSamples": [
+          {
+            "duration": 3257,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 5113,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 199774,
+        "parseOnBackground": 4414,
+        "phaseSamples": [
+          {
+            "cumulative": 192666,
+            "phase": "load",
+            "self": 192666
+          },
+          {
+            "cumulative": 376263,
+            "phase": "render",
+            "self": 183597
+          }
+        ],
+        "run": 57992
+      },
+      {
+        "callFunction": 134166,
+        "compile": 1002,
+        "duration": 370466,
+        "gc": 8636,
+        "gcSamples": [
+          {
+            "duration": 4522,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4114,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 285580,
+        "parseOnBackground": 93398,
+        "phaseSamples": [
+          {
+            "cumulative": 185457,
+            "phase": "load",
+            "self": 185457
+          },
+          {
+            "cumulative": 370466,
+            "phase": "render",
+            "self": 185009
+          }
+        ],
+        "run": 57014
+      },
+      {
+        "callFunction": 135677,
+        "compile": 996,
+        "duration": 373761,
+        "gc": 7138,
+        "gcSamples": [
+          {
+            "duration": 3142,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 3996,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 200023,
+        "parseOnBackground": 4487,
+        "phaseSamples": [
+          {
+            "cumulative": 190243,
+            "phase": "load",
+            "self": 190243
+          },
+          {
+            "cumulative": 373761,
+            "phase": "render",
+            "self": 183518
+          }
+        ],
+        "run": 58863
+      },
+      {
+        "callFunction": 134112,
+        "compile": 978,
+        "duration": 365796,
+        "gc": 7856,
+        "gcSamples": [
+          {
+            "duration": 3250,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4606,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 283684,
+        "parseOnBackground": 94189,
+        "phaseSamples": [
+          {
+            "cumulative": 184913,
+            "phase": "load",
+            "self": 184913
+          },
+          {
+            "cumulative": 365796,
+            "phase": "render",
+            "self": 180883
+          }
+        ],
+        "run": 54405
+      },
+      {
+        "callFunction": 137576,
+        "compile": 928,
+        "duration": 374059,
+        "gc": 8183,
+        "gcSamples": [
+          {
+            "duration": 4046,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4137,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 290243,
+        "parseOnBackground": 94096,
+        "phaseSamples": [
+          {
+            "cumulative": 187226,
+            "phase": "load",
+            "self": 187226
+          },
+          {
+            "cumulative": 374059,
+            "phase": "render",
+            "self": 186833
+          }
+        ],
+        "run": 57643
+      },
+      {
+        "callFunction": 131631,
+        "compile": 583,
+        "duration": 368018,
+        "gc": 7589,
+        "gcSamples": [
+          {
+            "duration": 3624,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 3965,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 193167,
+        "parseOnBackground": 4517,
+        "phaseSamples": [
+          {
+            "cumulative": 187896,
+            "phase": "load",
+            "self": 187896
+          },
+          {
+            "cumulative": 368018,
+            "phase": "render",
+            "self": 180122
+          }
+        ],
+        "run": 56436
+      },
+      {
+        "callFunction": 134381,
+        "compile": 820,
+        "duration": 367185,
+        "gc": 7871,
+        "gcSamples": [
+          {
+            "duration": 3462,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4409,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 285134,
+        "parseOnBackground": 92557,
+        "phaseSamples": [
+          {
+            "cumulative": 184798,
+            "phase": "load",
+            "self": 184798
+          },
+          {
+            "cumulative": 367185,
+            "phase": "render",
+            "self": 182387
+          }
+        ],
+        "run": 57376
+      },
+      {
+        "callFunction": 131305,
+        "compile": 954,
+        "duration": 372875,
+        "gc": 7738,
+        "gcSamples": [
+          {
+            "duration": 3788,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 3950,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 289163,
+        "parseOnBackground": 97838,
+        "phaseSamples": [
+          {
+            "cumulative": 192778,
+            "phase": "load",
+            "self": 192778
+          },
+          {
+            "cumulative": 372875,
+            "phase": "render",
+            "self": 180097
+          }
+        ],
+        "run": 59066
+      },
+      {
+        "callFunction": 132731,
+        "compile": 990,
+        "duration": 373706,
+        "gc": 7855,
+        "gcSamples": [
+          {
+            "duration": 3691,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4164,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 199453,
+        "parseOnBackground": 4310,
+        "phaseSamples": [
+          {
+            "cumulative": 193205,
+            "phase": "load",
+            "self": 193205
+          },
+          {
+            "cumulative": 373706,
+            "phase": "render",
+            "self": 180501
+          }
+        ],
+        "run": 61422
+      },
+      {
+        "callFunction": 130408,
+        "compile": 963,
+        "duration": 373406,
+        "gc": 7230,
+        "gcSamples": [
+          {
+            "duration": 3039,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4191,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 193234,
+        "parseOnBackground": 5026,
+        "phaseSamples": [
+          {
+            "cumulative": 193010,
+            "phase": "load",
+            "self": 193010
+          },
+          {
+            "cumulative": 373406,
+            "phase": "render",
+            "self": 180396
+          }
+        ],
+        "run": 56837
+      },
+      {
+        "callFunction": 130931,
+        "compile": 952,
+        "duration": 371545,
+        "gc": 7428,
+        "gcSamples": [
+          {
+            "duration": 3477,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 3951,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 194302,
+        "parseOnBackground": 4670,
+        "phaseSamples": [
+          {
+            "cumulative": 191746,
+            "phase": "load",
+            "self": 191746
+          },
+          {
+            "cumulative": 371545,
+            "phase": "render",
+            "self": 179799
+          }
+        ],
+        "run": 57749
+      },
+      {
+        "callFunction": 131192,
+        "compile": 1007,
+        "duration": 370514,
+        "gc": 7509,
+        "gcSamples": [
+          {
+            "duration": 3541,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 3968,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 197661,
+        "parseOnBackground": 4494,
+        "phaseSamples": [
+          {
+            "cumulative": 190824,
+            "phase": "load",
+            "self": 190824
+          },
+          {
+            "cumulative": 370514,
+            "phase": "render",
+            "self": 179690
+          }
+        ],
+        "run": 60968
+      },
+      {
+        "callFunction": 133066,
+        "compile": 1017,
+        "duration": 367289,
+        "gc": 7754,
+        "gcSamples": [
+          {
+            "duration": 3472,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4282,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 196198,
+        "parseOnBackground": 4352,
+        "phaseSamples": [
+          {
+            "cumulative": 184894,
+            "phase": "load",
+            "self": 184894
+          },
+          {
+            "cumulative": 367289,
+            "phase": "render",
+            "self": 182395
+          }
+        ],
+        "run": 57763
+      },
+      {
+        "callFunction": 130207,
+        "compile": 1353,
+        "duration": 368582,
+        "gc": 8647,
+        "gcSamples": [
+          {
+            "duration": 4333,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4314,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 285536,
+        "parseOnBackground": 94644,
+        "phaseSamples": [
+          {
+            "cumulative": 190138,
+            "phase": "load",
+            "self": 190138
+          },
+          {
+            "cumulative": 368582,
+            "phase": "render",
+            "self": 178444
+          }
+        ],
+        "run": 59332
+      },
+      {
+        "callFunction": 130333,
+        "compile": 778,
+        "duration": 366221,
+        "gc": 8054,
+        "gcSamples": [
+          {
+            "duration": 3609,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4445,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 284570,
+        "parseOnBackground": 96068,
+        "phaseSamples": [
+          {
+            "cumulative": 187829,
+            "phase": "load",
+            "self": 187829
+          },
+          {
+            "cumulative": 366221,
+            "phase": "render",
+            "self": 178392
+          }
+        ],
+        "run": 57391
+      },
+      {
+        "callFunction": 131700,
+        "compile": 777,
+        "duration": 365668,
+        "gc": 9073,
+        "gcSamples": [
+          {
+            "duration": 4776,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4297,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 192903,
+        "parseOnBackground": 4368,
+        "phaseSamples": [
+          {
+            "cumulative": 184008,
+            "phase": "load",
+            "self": 184008
+          },
+          {
+            "cumulative": 365668,
+            "phase": "render",
+            "self": 181660
+          }
+        ],
+        "run": 56058
+      },
+      {
+        "callFunction": 131164,
+        "compile": 1004,
+        "duration": 368219,
+        "gc": 7270,
+        "gcSamples": [
+          {
+            "duration": 3209,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4061,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 194560,
+        "parseOnBackground": 4151,
+        "phaseSamples": [
+          {
+            "cumulative": 188806,
+            "phase": "load",
+            "self": 188806
+          },
+          {
+            "cumulative": 368219,
+            "phase": "render",
+            "self": 179413
+          }
+        ],
+        "run": 58241
+      },
+      {
+        "callFunction": 135304,
+        "compile": 1126,
+        "duration": 372602,
+        "gc": 7779,
+        "gcSamples": [
+          {
+            "duration": 3337,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4442,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 195799,
+        "parseOnBackground": 4732,
+        "phaseSamples": [
+          {
+            "cumulative": 189121,
+            "phase": "load",
+            "self": 189121
+          },
+          {
+            "cumulative": 372602,
+            "phase": "render",
+            "self": 183481
+          }
+        ],
+        "run": 54637
+      },
+      {
+        "callFunction": 134242,
+        "compile": 1012,
+        "duration": 370067,
+        "gc": 7501,
+        "gcSamples": [
+          {
+            "duration": 3285,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4216,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 289896,
+        "parseOnBackground": 95003,
+        "phaseSamples": [
+          {
+            "cumulative": 187938,
+            "phase": "load",
+            "self": 187938
+          },
+          {
+            "cumulative": 370067,
+            "phase": "render",
+            "self": 182129
+          }
+        ],
+        "run": 59639
+      },
+      {
+        "callFunction": 130097,
+        "compile": 1019,
+        "duration": 364574,
+        "gc": 7495,
+        "gcSamples": [
+          {
+            "duration": 3563,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 3932,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 282937,
+        "parseOnBackground": 93929,
+        "phaseSamples": [
+          {
+            "cumulative": 186811,
+            "phase": "load",
+            "self": 186811
+          },
+          {
+            "cumulative": 364574,
+            "phase": "render",
+            "self": 177763
+          }
+        ],
+        "run": 57892
+      },
+      {
+        "callFunction": 138207,
+        "compile": 786,
+        "duration": 369891,
+        "gc": 8765,
+        "gcSamples": [
+          {
+            "duration": 4588,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4177,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 201364,
+        "parseOnBackground": 4116,
+        "phaseSamples": [
+          {
+            "cumulative": 182274,
+            "phase": "load",
+            "self": 182274
+          },
+          {
+            "cumulative": 369891,
+            "phase": "render",
+            "self": 187617
+          }
+        ],
+        "run": 58255
+      },
+      {
+        "callFunction": 132830,
+        "compile": 621,
+        "duration": 367273,
+        "gc": 8776,
+        "gcSamples": [
+          {
+            "duration": 4393,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4383,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 283901,
+        "parseOnBackground": 93385,
+        "phaseSamples": [
+          {
+            "cumulative": 185467,
+            "phase": "load",
+            "self": 185467
+          },
+          {
+            "cumulative": 367273,
+            "phase": "render",
+            "self": 181806
+          }
+        ],
+        "run": 57065
+      },
+      {
+        "callFunction": 131395,
+        "compile": 576,
+        "duration": 367524,
+        "gc": 7448,
+        "gcSamples": [
+          {
+            "duration": 3483,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 3965,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 190607,
+        "parseOnBackground": 4066,
+        "phaseSamples": [
+          {
+            "cumulative": 187037,
+            "phase": "load",
+            "self": 187037
+          },
+          {
+            "cumulative": 367524,
+            "phase": "render",
+            "self": 180487
+          }
+        ],
+        "run": 54570
+      },
+      {
+        "callFunction": 132514,
+        "compile": 1128,
+        "duration": 367143,
+        "gc": 8318,
+        "gcSamples": [
+          {
+            "duration": 3802,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4516,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 282792,
+        "parseOnBackground": 94501,
+        "phaseSamples": [
+          {
+            "cumulative": 185370,
+            "phase": "load",
+            "self": 185370
+          },
+          {
+            "cumulative": 367143,
+            "phase": "render",
+            "self": 181773
+          }
+        ],
+        "run": 54649
+      },
+      {
+        "callFunction": 131991,
+        "compile": 1100,
+        "duration": 366680,
+        "gc": 8175,
+        "gcSamples": [
+          {
+            "duration": 3491,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4684,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 194772,
+        "parseOnBackground": 4238,
+        "phaseSamples": [
+          {
+            "cumulative": 186392,
+            "phase": "load",
+            "self": 186392
+          },
+          {
+            "cumulative": 366680,
+            "phase": "render",
+            "self": 180288
+          }
+        ],
+        "run": 57443
+      },
+      {
+        "callFunction": 134467,
+        "compile": 767,
+        "duration": 366460,
+        "gc": 8052,
+        "gcSamples": [
+          {
+            "duration": 3802,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4250,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 195159,
+        "parseOnBackground": 4688,
+        "phaseSamples": [
+          {
+            "cumulative": 184975,
+            "phase": "load",
+            "self": 184975
+          },
+          {
+            "cumulative": 366460,
+            "phase": "render",
+            "self": 181485
+          }
+        ],
+        "run": 55237
+      },
+      {
+        "callFunction": 137556,
+        "compile": 762,
+        "duration": 372067,
+        "gc": 8593,
+        "gcSamples": [
+          {
+            "duration": 3714,
+            "usedHeapSizeAfter": 3868096,
+            "usedHeapSizeBefore": 4392416
+          },
+          {
+            "duration": 4879,
+            "usedHeapSizeAfter": 4511088,
+            "usedHeapSizeBefore": 4928952
+          }
+        ],
+        "js": 204186,
+        "parseOnBackground": 4829,
+        "phaseSamples": [
+          {
+            "cumulative": 185629,
+            "phase": "load",
+            "self": 185629
+          },
+          {
+            "cumulative": 372067,
+            "phase": "render",
+            "self": 186438
+          }
+        ],
+        "run": 61039
+      }
+    ],
+    "set": "es2017"
+  }
+]
