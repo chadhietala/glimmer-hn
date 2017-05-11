@@ -1,7 +1,7 @@
 {
   "har": "./benching/archive/glimmer-hn-4-10-17.har",
   "cpu": 4,
-  "runtimeStats": true,
+  "runtimeStats": false,
   "network": {
     "latency": 400,
     "uploadThroughput": 51200,
