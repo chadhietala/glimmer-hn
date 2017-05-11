@@ -10,6 +10,12 @@
   },
   "servers": [{
     "name": "baseline",
-    "port": 8879
+    "port": 8879,
+    "dist": "baseline-dist"
+  },
+  {
+    "name": "experiment",
+    "port": 8878,
+    "dist": "dist"
   }]
 }
