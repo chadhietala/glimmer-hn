@@ -1,0 +1,13 @@
+<div>
+  <article>
+    <header>
+      <span>{{@comment.user}}</span>
+      <span>{{@comment.time_ago}}</span>
+    </header>
+  </article>
+  <div>
+    {{{@comment.content}}}
+  </div>
+
+  {{yield @comment.comments}}
+</div>

@@ -9,7 +9,15 @@
   <div>
     <h2>{{@article.comments_count}} comments</h2>
     <section>
-      <comment-list @comments={{@comments}} />
+      <div>
+        {{#each @comments key="id" as |comment|}}
+          <comment-item @comment={{comment}} as |nestedComment|>
+            {{#each nestedComment key="id" as |commment|}}
+              <comment-item @comment={{comment}} />
+            {{/each}}
+          </comment-item>
+        {{/each}}
+      </div>
     </section>
   </div>
 </main>
