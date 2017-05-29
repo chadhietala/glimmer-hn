@@ -1,42 +1,33 @@
 <div class="mainView">
   {{~#-in-element nav~}}
     <li class="item">
-      <a href="/" class="link {{active '/'}}">top</a>
+      <a href="#/" class="link {{active '#/'}}">top</a>
     </li>
     <li class="item">
-      <a href="/new" class="link {{active '/new'}}">new</a>
+      <a href="#/new" class="link {{active '#/new'}}">new</a>
     </li>
     <li class="item">
-      <a href="/show" class="link {{active '/show'}}">show</a>
+      <a href="#/show" class="link {{active '#/show'}}">show</a>
     </li>
     <li class="item">
-      <a href="/ask" class="link {{active '/ask'}}">ask</a>
+      <a href="#/ask" class="link {{active '#/ask'}}">ask</a>
     </li>
     <li class="item">
-      <a href="/jobs" class="link {{active '/jobs'}}">jobs</a>
+      <a href="#/jobs" class="link {{active '#/jobs'}}">jobs</a>
     </li>
     <li class="item">
-      <a href="/about" class="link {{active '/about'}}">about</a>
+      <a href="#/about" class="link {{active '#/about'}}">about</a>
     </li>
   {{~/-in-element~}}
 
-  <main>
-    <p class="pagination">
-      <a href="/top" class="disabled navigate">&lt; prev</a>
-      <span class="pages"> {{! TODO make dynamic}} 1/18</span>
-      <a href="/top" class="navigate">next &gt;</a>
-    </p>
-    {{~#each results key="index" as |result i|~}}
-      <article class="article">
-        <span class="index">{{inc i}}</span>
-        <div class="metadata">
-          <h2><a href="{{result.url}}" class="outboundLink">{{result.title}}</a></h2>
-          <p>{{result.score}} points by <a href="/user/{{result.by}}" class="link">{{result.by}}</a> {{time result.time}}
-           <span> | <a href="/item/{{result.id}}" class="link">{{gt result.descendants 1 (concat result.descendants " comments") "discuss"}}</a></span>
-          </p>
-        </div>
-      </article>
-    {{~/each~}}
-  </main>
+  {{#if isListView}}
+    <list-view @results={{results}} />
+  {{else if isComments}}
+    {{currentArticle.id}}
+    <comments-route @article={{currentArticle}} @comments={{comments}} />
+  {{else}}
+    <about-route/>
+
+  {{/if}}
 
 </div>

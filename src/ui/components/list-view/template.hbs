@@ -1,0 +1,13 @@
+<main>
+  {{~#each @results key="index" as |result i|~}}
+    <article class="article">
+      <span class="index">{{inc i}}</span>
+      <div class="metadata">
+        <h2><a href="{{result.url}}" class="outboundLink">{{result.title}}</a></h2>
+        <p>{{result.points}} points by <a href="/user/{{result.user}}" class="link">{{result.user}}</a> {{time result.time}}
+          <span> | <a href="#/item/{{result.id}}" class="link">{{gt result.comments_count 1 (concat result.comments_count " comments") "discuss"}}</a></span>
+        </p>
+      </div>
+    </article>
+  {{~/each~}}
+</main>
