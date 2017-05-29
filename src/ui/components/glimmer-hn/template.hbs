@@ -23,7 +23,6 @@
   {{#if isListView}}
     <list-view @results={{results}} />
   {{else if isComments}}
-    {{currentArticle.id}}
     <comments-route @article={{currentArticle}} @comments={{comments}} />
   {{else}}
     <about-route/>

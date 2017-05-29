@@ -1,20 +1,22 @@
-<main>
-  <article>
-    <h1>
+<main class="mainView">
+  <article class="comment">
+    <h1 class="header">
       <a href="{{@article.url}}" class="main-link">{{@article.title}}</a>
     </h1>
-    <small>({{@article.domain}})</small>
+    <small class="domain">({{@article.domain}})</small>
     <p>{{@article.points}} points by {{@article.user}}</p>
   </article>
   <div>
-    <h2>{{@article.comments_count}} comments</h2>
+    <h2 class="comment-count">{{@article.comments_count}} comments</h2>
     <section>
       <div>
         {{#each @comments key="id" as |comment|}}
           <comment-item @comment={{comment}} as |nestedComment|>
-            {{#each nestedComment key="id" as |commment|}}
-              <comment-item @comment={{comment}} />
+            <div class="nested">
+            {{#each nestedComment key="id" as |nested|}}
+              <comment-item  @comment={{nested}} />
             {{/each}}
+            </div>
           </comment-item>
         {{/each}}
       </div>

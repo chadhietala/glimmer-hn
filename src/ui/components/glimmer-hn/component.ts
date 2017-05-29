@@ -40,7 +40,10 @@ export default class GlimmerHn extends Component {
         }
 
         this.fetchComments(params.articleId);
+      } else {
+        this.isComments = false;
       }
+
 
       this.isListView = false;
     });
