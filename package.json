@@ -9,16 +9,19 @@
   "scripts": {
     "build": "ember build --environment=production",
     "start": "ember server --proxy=https://node-hnapi.herokuapp.com",
+    "start:prod": "ember serve --environment=production --proxy=https://node-hnapi.herokuapp.com --live-reload=false",
     "test": "ember test",
     "bench": "node ./benching/index.js",
     "serve": "node --expose-gc ./benching/server.js"
   },
   "devDependencies": {
-    "@glimmer/application": "^0.4.0",
-    "@glimmer/application-pipeline": "^0.6.9",
-    "@glimmer/component": "^0.3.8",
+    "@glimmer/application": "^0.5.1",
+    "@glimmer/application-pipeline": "^0.7.0",
+    "@glimmer/component": "^0.4.0",
     "@glimmer/resolver": "^0.3.0",
     "chrome-tracing": "^0.9.0",
+    "broccoli-asset-rev": "^2.5.0",
+    "ember-cli-uglify": "^1.2.0",
     "ember-cli": "github:ember-cli/ember-cli",
     "ember-cli-inject-live-reload": "^1.6.1",
     "express": "^4.8.5",
