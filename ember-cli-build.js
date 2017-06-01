@@ -4,7 +4,19 @@ const GlimmerApp = require('@glimmer/application-pipeline').GlimmerApp;
 
 module.exports = function(defaults) {
   let app = new GlimmerApp(defaults, {
-    // Add options here
+    minifyJS: {
+      enabled: process.env.EMBER_ENV === 'production',
+      options: {
+        mangle: true,
+        compress: {
+          // disable these have performance issues
+          negate_iife: false,
+        },
+        output: {
+          semicolons: false,
+        },
+      },
+    },
   });
 
   // Use `app.import` to add additional libraries to the generated
