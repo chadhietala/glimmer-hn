@@ -17,6 +17,9 @@ module.exports = function(defaults) {
         },
       },
     },
+    fingerprint: {
+      exclude: ['images/glimmer-192x192'],
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated
